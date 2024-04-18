@@ -25,7 +25,7 @@ services:
     image: postgres_v2
     environment:
       - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=fE7D4H+F(uIBn!
+      - POSTGRES_PASSWORD=Altacod99_
       - POSTGRES_DB=prmo_v2
     ports:
       - 5432:5432
