@@ -1,11 +1,11 @@
 server:
-  port: 8039
+  port: 8080
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/prmo_db
+    url: jdbc:postgresql://147.45.148.118:5432/prmo_v2
     username: postgres
-    password: "postgres"
+    password: "fE7D4H+F(uIBn!"
   jpa:
     properties:
       hibernate:

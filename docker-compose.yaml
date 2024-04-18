@@ -8,9 +8,10 @@ version: '3.9'
 #          gateway: 172.27.1.1
 services:
   web:
-    image: prmo
+    image: prmo_v2
     ports:
       - 8080:8080
+      - 8089:8089
     #    networks:
     #      bridge:
     #        ipv4_address: 172.27.1.100
@@ -21,11 +22,11 @@ services:
     volumes:
       - ./prmo:/opt
   db:
-    image: postgres
+    image: postgres_v2
     environment:
       - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=postgres
-      - POSTGRES_DB=prmo_db
+      - POSTGRES_PASSWORD=fE7D4H+F(uIBn!
+      - POSTGRES_DB=prmo_v2
     ports:
       - 5432:5432
     #    networks:
