@@ -5,7 +5,7 @@ spring:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://147.45.148.118:5432/prmo_v2
     username: postgres
-    password: "Altacod99_"
+    password: "RiUmS\|C53g}z\"
   jpa:
     properties:
       hibernate:
